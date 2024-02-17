@@ -115,7 +115,7 @@ nav .fa{
     display: none;
 }
 
-@media(max-width: 700px) {
+@media(max-width: 400px) {
     .text-box h1{
         font-size: 20px;
     }
@@ -164,12 +164,24 @@ p {
     padding: 10px;
 }
 
-.row {
+.row h1 {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
     
 }
+
+.row p {
+    
+    
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
 
 .course-col {
     flex-basis: 31%;
@@ -190,7 +202,7 @@ h3 {
     transition: 1s;
 
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 400px) {
     .row{
         flex-direction: column;
     }
@@ -248,11 +260,12 @@ h3 {
 
 }
 
-.facilities{
+.Facilities{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 40px;
+    align-items: center;
 
 }
 
@@ -263,6 +276,7 @@ h3 {
     position: relative;
     overflow: hidden;
     text-align: center; /* Center the text */
+    align-items: center;
 }
 
 .facilities-col img {
@@ -278,6 +292,9 @@ h3 {
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -286,10 +303,17 @@ h3 {
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    align-items: center;
+    
+    
+    
+
 }
 
 .testomonials-col {
     flex-basis: 44%;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px;
     margin-bottom: 5px;
     text-align: left;
@@ -303,6 +327,7 @@ h3 {
     height: 100px;
     margin-left: 100px;
     margin-right: 100px;
+    
 
 }
 
@@ -319,7 +344,7 @@ h3 {
 
 }
 
-@media(max-width: 700px){
+@media(max-width: 400px){
     .testomonials-col img {
         margin-left: 0px;
         margin-right: 15px;
@@ -346,7 +371,7 @@ h3 {
 
 }
 
-@media(max-width: 700px){
+@media(max-width: 400px){
     .cta h1{
         font-size: 24px;
 
@@ -393,17 +418,22 @@ h3 {
     margin: auto;
     padding-top: 80px;
     padding-bottom: 80px;
+    align-items: center;
 
 }
 
 .about-col{
     flex-basis: 100%;
     padding: 60px 6px;
+    align-items: center;
 
 }
 
 .about-col img{
     width: 100%;
+    flex-basis: content;
+    align-items: center;
+    
 
 }
 
@@ -496,18 +526,24 @@ h3 {
     margin: 10px 0;
 }
 
-@media(max-width:700px){
+@media(max-width:400px){
     .sub-header h1{
         font-size: 24px;
     }
 }
 
 .location iframe{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
     
     width: 100%;
-    border-radius: 10px;
+    border-radius: 90px;
     border-color: #f2ea09;
     box-shadow: #555;
+    align-self: center;
+    margin: 30px 0;
     
 }
 .contact-us {
