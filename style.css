@@ -5,31 +5,29 @@
     font-family: "Lato", sans-serif;
     font-weight: 900;
     font-style: normal;
+    box-sizing: border-box;
 
       
 
-    ::-webkit-scrollbar{
-        width: 10px;
-    }
-    ::-webkit-scrollbar-track{
-        background-color: #ffffff50;
-        border-radius: 40px;
-    }
-    ::-webkit-scrollbar-thumb{
-        background-color: #3f36f4bd;
-        border-radius: 40px;
-
-    }
+    
     
 
     
    
 }
-
-.gradient-bg {
-    background: linear-gradient(to right, #dbeafe, #ffffff, #fce7f3); /* blue-100 to pink-100 */
-    color: #1f2937; /* text-gray-800 */
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+nav img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-height: 100px; /* optional */
   }
+
+
 .sticky-header {
     position: sticky;
     top: 20px;
@@ -103,8 +101,13 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    overflow: hidden;
 
 }
+.gradient-bg {
+    background: linear-gradient(to right, #dbeafe, #ffffff, #fce7f3); /* blue-100 to pink-100 */
+    color: #1f2937; /* text-gray-800 */
+  }
 
 
 nav{
