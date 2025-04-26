@@ -1,8 +1,11 @@
     <!DOCTYPE html>
     <html>
     <head>
-        <meta name ="viewpoint" content="with=device-width, initial-scale = 1.0 ">
+        <meta name ="viewport" content="with=device-width, initial-scale = 1.0 ">
         <title>Amar Mavi Secondary School</title>
+        <<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,8 +20,9 @@
 
 
     </head>
+    
 
-    <body class="gradient-bg">
+    <body class="gradient-bg" data-aos="fade-up">
     <section class = "header">
         <nav>
             <a href="index.html"><img src="images/Logo.jpg"></a>
@@ -35,8 +39,8 @@
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
 
-    <div class="text-box">
-        <h1> नेपाल देखी <span> दुबई कतार  </span> 10 देखी 15 दिनमै  </h1>
+    <div class="text-box" >
+        <h1> नेपाल देखी <span > दुबई कतार  </span> 10 देखी 15 दिनमै  </h1>
         <p> वैदेशिक रोजगारिको लागि भर्पर्दो मेनपावर कम्पनिको खोजीमा हुनुहुन्छ भने हामिलाई सम्जनुहोला सम्पर्क को लागि <br /> 
   
             9764575701/9767548941 कृष्ण प्रसाद खतिवडा
@@ -47,7 +51,7 @@
 
     </section>
 
-    <section class = "course">
+    <section class = "course" data-aos="fade-up">
         <h1> हामीले प्रदान गर्ने पाठ्यक्रमहरू तपाईंको व्यक्तिगत प्राथमिकता अनुसार धेरै फरक हुन सक्छन्। थप विवरणहरू चाँडै आउँदैछन्।</h1>
         <p> Course we offer can very so much according to your personal prefences and I will add more details to follow for the courses</p>
         <div class="row">
@@ -73,7 +77,7 @@
     
         </div>
     
-        <section class="Facilities">
+        <section class="Facilities" data-aos="fade-up">
             <h1>Our Facilities</h1>
             <p><b>हामी मानिसहरूलाई असाधारण सुविधाहरू प्रदान गर्ने ठाउँमा तपाईंहरू सबैलाई स्वागत छ।</b><br><br>
     
@@ -95,7 +99,7 @@
                 </div>
             </div>
         </section>
-    <section class="campus">
+    <section class="campus" data-aos="fade-up">
         <h1>Our Global Institute</h1>
         <p>Our Global Institure is huge and contains many things available for physical and mental growth of every people trying for manpower  </p>
 
@@ -123,7 +127,7 @@
     </section>
 
 
-    <section class="testomonials">
+    <section class="testomonials" data-aos="fade-up">
         <h1>Our support</h1>
         <p> <strong>Here</strong> <br>Krishna Khatiwada</p></section><br>
         <div class="row">
@@ -140,7 +144,7 @@
         </div>
     </section>
 
-    <section class="cta">
+    <section class="cta" data-aos="fade-up">
         <h1>Enroll for our various Courses Anywhere from the world</h1>
         <a href="contact.html" class="hero-btn">CONTACT US</a>
 
@@ -158,7 +162,7 @@
         <i class="fa fa-facebook"></i>
       </div>
 
-    <section class="footer">
+    <section class="footer" data-aos="fade-up">
         <h4>About Us    </h4>
         <p> "That's what unions do. They can get money, they can get support, they can get manpower.." </br></p>
         
@@ -187,6 +191,10 @@
         function hideMenu(){
             navLinks.style.right = "-200px";
         }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
 
     </body>

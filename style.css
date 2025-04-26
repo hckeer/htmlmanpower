@@ -400,30 +400,56 @@ h3 {
 }
 
 .cta {
-    margin: 150px;
-    width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/aii.jpg);
-    background-position:left;
-    background-size: cover;
-    border-radius: 10px;
-    text-align:center;
-    padding: 100px 0;
-}
-
-.cta h1{
-    color: #fffbfb;
-    margin-bottom: 50px;
-    padding: 0;
-
-}
-
-@media(max-width: 700px){
-    .cta h1{
-        font-size: 24px;
-
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(90deg, rgb(240, 234, 183), #362005); /* Optional gradient background */
+  }
+  
+  .cta h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .cta .hero-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #ff8c00; /* Button color */
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .cta .hero-btn:hover {
+    background-color: #f06; /* Hover effect */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .cta h1 {
+      font-size: 1.5rem; /* Smaller font size on mobile */
+      margin-bottom: 15px;
     }
-}
-
+  
+    .cta .hero-btn {
+      padding: 10px 25px; /* Smaller padding on mobile */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cta h1 {
+      font-size: 1.25rem; /* Even smaller font size on very small screens */
+      margin-bottom: 10px;
+    }
+  
+    .cta .hero-btn {
+      padding: 8px 20px; /* Adjust padding for small screens */
+      font-size: 0.9rem; /* Adjust font size for mobile */
+    }
+  }
+  
 .footer {
     width: 100%;
     text-align: center;
